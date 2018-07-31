@@ -66,11 +66,11 @@
 ==============
 | 项目名称 | 项目简介 | 主要技术 |
 | -- | -- | -- | 
-| [xfoundation](https://github.com/churuxu/xfoundation) | 跨平台异步网络库                       | c      |
-| [xgraphics](https://github.com/churuxu/xgraphics)     | 跨平台图像编解码，绘图，绘字等           | c++    |
-| [gmp](https://github.com/churuxu/gmp)                 | 用于自动生成vs,xcode,makefile等工程文件 | nodejs |
-| [xidl](https://github.com/churuxu/xidl)               | 用于根据接口声明文件自动生成接口封装代码  | nodejs |
-| [mhcode](https://github.com/churuxu/mhcode)           | 用于hook/call任意内存地址               | c 汇编 |
+| [xfoundation](https://github.com/churuxu/xfoundation) | 跨平台异步网络\IO库,支持嵌入Windows、Android、iOS的主线程消息循环  | c      |
+| [xgraphics](https://github.com/churuxu/xgraphics)     | 跨平台图像编解码，绘图，绘字等，用于在内存中绘图                   | c++    |
+| [gmp](https://github.com/churuxu/gmp)                 | 用于自动生成Virtual Studio, XCode, Makefile等项目工程文件        | nodejs |
+| [xidl](https://github.com/churuxu/xidl)               | 用于根据idl接口声明文件自动生成接口封装代码                        | nodejs |
+| [mhcode](https://github.com/churuxu/mhcode)           | 用于hook/call任意内存地址，取寄存器值等                           | c 汇编 |
 <br>
 
 附录
