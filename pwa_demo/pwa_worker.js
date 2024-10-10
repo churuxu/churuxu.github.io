@@ -42,28 +42,21 @@ async function onRequestManifest(cacheResponse, request) {
         let cacheData = await cacheResponse.text();
         if (fetchData != cacheData) { //跟缓存的不同
             //let cache = await caches.open(cacheName);
-            log('manifest changed');
+            log('manifest changed');            
             caches.delete(cacheName);            
         }
     } catch (error) {
-
+        console.log(error);
     }
 }
 
-/*
+
 self.addEventListener('install', function (e) {
-    e.waitUntil(
-        caches.open(cacheName)
-            .then(function (cache) {
-                log('opened');
-                cache_ = cache;  
-                notifyReady();              
-            })
-    );
+    log('install');
 });
-*/
 
 
+//实现自定义fetch函数
 async function serviceWorkerFetch(request){
     let url = request.url;
 
